@@ -1,0 +1,35 @@
+name: Build and Test (unit) and e2e (cypress headless)
+
+on:
+  pull_request:
+    branches:
+      - development
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: Building packages
+        run: |
+          yarn
+      - name: Linting
+        run: |
+          yarn lint
+      - name: Run Unit tests
+        run: |
+          yarn test:ci
+
+#   will uncomment this step, when we will have production/staging
+#   environment to test against
+#      - name: Run Unit e2e tests
+#        run: |
+#          yarn cypress:headless

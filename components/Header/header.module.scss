@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-area: header;
+  background-color: var(--white-color);
+}
+
+.loginPanel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 12px;
+}

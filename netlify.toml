@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/backend/*"
+  to = "http://localhost:8080/api/:splat"
+  status = 200

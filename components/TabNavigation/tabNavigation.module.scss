@@ -1,0 +1,15 @@
+.tabNav {
+  color: blue !important;
+  background-color: var(--background-color);
+  padding: 24px 0px 24px 24px;
+
+  ul {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+  }
+}
