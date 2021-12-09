@@ -1,7 +1,6 @@
 import React from 'react'
 
 import styles from './header.module.scss'
-import { signOut } from 'next-auth/react'
 import { Avatar } from '../../images/avatar'
 import Link from 'next/link'
 import { Button } from '../Forms/Button'
@@ -20,7 +19,9 @@ export const Header = (props: HeaderProps) => {
                         <Avatar />
                     </a>
                 </Link>
-                <Button onClick={() => signOut()}>Sign out</Button>
+                <Button onClick={() => console.log('signing out...i')}>
+                    Sign out
+                </Button>
             </div>
         </header>
     )
