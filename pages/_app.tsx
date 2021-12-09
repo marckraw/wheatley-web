@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import 'pollen-css'
 import '../styles/globals.scss'
 import 'react-toastify/dist/ReactToastify.css'
@@ -7,10 +7,6 @@ import type { AppProps } from 'next/app'
 import { SWRConfig } from 'swr'
 import { fetcher } from '../utils/fetcher'
 import TestContextProvider from '../contexts/TestContext'
-import { SessionProvider, signIn, useSession } from 'next-auth/react'
-import { AuthGate } from '../components/Auth'
-import { NextPage } from 'next'
-import { Protected } from '../interfaces/local'
 
 function MyApp({ Component, pageProps }: AppProps) {
     const SWROptions = {
@@ -27,22 +23,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     }
 
     return (
-        <SessionProvider>
-            <TestContextProvider>
-                <SWRConfig value={SWROptions}>
-                    <>
-                        {(Component as NextPage & Protected).auth ? (
-                            <AuthGate>
-                                <Component {...pageProps} />
-                            </AuthGate>
-                        ) : (
-                            <Component {...pageProps} />
-                        )}
-                        <ToastContainer />
-                    </>
-                </SWRConfig>
-            </TestContextProvider>
-        </SessionProvider>
+        <TestContextProvider>
+            <SWRConfig value={SWROptions}>
+                <>
+                    <Component {...pageProps} />
+                    <ToastContainer />
+                </>
+            </SWRConfig>
+        </TestContextProvider>
     )
 }
 

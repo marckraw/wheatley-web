@@ -19,7 +19,7 @@ class RequestError implements RequestErrorInterface {
     }
 }
 
-export const fetcher: Fetcher<any> = async (args) => {
+export const fetcher: Fetcher<any> = async (args: any) => {
     const res: any = await fetch(args)
 
     // If the status code is not in the range 200-299,
@@ -32,7 +32,7 @@ export const fetcher: Fetcher<any> = async (args) => {
     return res.json()
 }
 
-export const postFetcher: Fetcher<any> = async (args) => {
+export const postFetcher: Fetcher<any> = async (args: any) => {
     console.log('from postFertcher')
     console.log(args)
     const res: any = await fetch(args)
@@ -47,7 +47,7 @@ export const postFetcher: Fetcher<any> = async (args) => {
     return res.json()
 }
 
-export const getAuthFetcher: Fetcher<any> = async (...args) => {
+export const getAuthFetcher: Fetcher<any> = async (...args: any) => {
     const [url, token] = args
     const res: any = await fetch(url, {
         method: 'GET', // *GET, POST, PUT, DELETE, etc.
@@ -70,7 +70,7 @@ export const getAuthFetcher: Fetcher<any> = async (...args) => {
     return res.json()
 }
 
-export const postAuthFetcher: Fetcher<any> = async (...args) => {
+export const postAuthFetcher: Fetcher<any> = async (...args: any) => {
     const [url, token, body] = args
     const res: any = await fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.

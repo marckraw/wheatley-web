@@ -1,8 +1,7 @@
-import React from "react";
-import {usei18n} from "../../hooks/usei18n";
-import { useRouter } from "next/router";
-import {TabNavigation} from "../TabNavigation";
-import styles from './manageLayout.module.scss';
+import React from 'react'
+import { useRouter } from 'next/router'
+import { TabNavigation } from '../TabNavigation'
+import styles from './manageLayout.module.scss'
 
 const navItems = [
     {
@@ -28,16 +27,12 @@ const navItems = [
 ]
 
 const Layout: React.FC = (props) => {
-    const { locale } = useRouter();
-    const t = usei18n(locale || 'pl-PL')
-    const {children} = props;
+    const { children } = props
 
     return (
         <div className={styles.container}>
             <TabNavigation items={navItems} />
-            <div className={styles.content}>
-                {children}
-            </div>
+            <div className={styles.content}>{children}</div>
         </div>
     )
 }
