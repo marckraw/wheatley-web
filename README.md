@@ -53,11 +53,12 @@ Production version of components documentation is also available online at: http
 
 
 ## Deployed stuff, useful links
-|                           | url                                                                       | pass           |
-|---------------------------|---------------------------------------------------------------------------|----------------|
-| App                       | https://bystro.ch                                                         | bystrodokuchni |
-| Design system             | https://design-system.bystro.ch/                                          | bystrodokuchni |
-| Figma wireframes / design | https://www.figma.com/file/ARChDbmUk68Q7Bqy10hSZD/Main-View?node-id=0%3A1   |                |
+|                           | url                                                                       |
+|---------------------------|---------------------------------------------------------------------------|
+| App                       | https://wheatley.one/                                                     |
+| API                       | https://api.wheatley.one/v1                                               |
+| Design system             |                                                                           |
+| Figma wireframes / design | ???                                                                       |
 
 
 # Tests
