@@ -137,6 +137,21 @@ const Wheatley: NextPage = (props: any) => {
                             </li>
                         </ul>
                     </div>
+                    <div>
+                        <h3>Content (CMS, Database)</h3>
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://cloud.digitalocean.com/apps/0bdeb30a-0067-4eb1-93f4-422b31aef288/settings/db?i=3c8ad0"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    Database (DigitalOcean): wheatley-api db
+                                    component
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </Layout>

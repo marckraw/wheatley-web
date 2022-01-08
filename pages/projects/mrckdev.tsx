@@ -92,6 +92,20 @@ const MrckDev: NextPage = (props: any) => {
                             </li>
                         </ul>
                     </div>
+                    <div>
+                        <h3>Content (CMS, Database)</h3>
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://app.storyblok.com/#!/me/spaces/137323/dashboard"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    Storyblok: mrck.dev
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </Layout>
