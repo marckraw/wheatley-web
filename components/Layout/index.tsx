@@ -24,6 +24,11 @@ const Layout: React.FC = (props) => {
                                 <a>Home</a>
                             </Link>
                         </li>
+                        <li>
+                            <Link href="/projects">
+                                <a>Projects</a>
+                            </Link>
+                        </li>
                         <li>&nbsp;</li>
                         <li>
                             <Link href="bear://">
