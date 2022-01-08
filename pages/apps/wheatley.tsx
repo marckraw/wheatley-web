@@ -23,6 +23,20 @@ const Wheatley: NextPage = (props: any) => {
                     }}
                 >
                     <div>
+                        <h3>Development process</h3>
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://codepride.atlassian.net/jira/software/projects/WHEAT/boards/3"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    Jira - Wheatley
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
                         <h3>Repositories</h3>
                         <ul>
                             <li>
