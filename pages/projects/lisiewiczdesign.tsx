@@ -14,7 +14,7 @@ const LisiewiczDesign: NextPage = (props: any) => {
                     alignItems: 'center',
                 }}
             >
-                <h2>Wheatley places</h2>
+                <h2>lisiewicz.design places</h2>
                 <div
                     style={{
                         display: 'flex',

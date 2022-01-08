@@ -24,6 +24,47 @@ const Layout: React.FC = (props) => {
                                 <a>Home</a>
                             </Link>
                         </li>
+                        <li>&nbsp;</li>
+                        <li>
+                            <Link href="bear://">
+                                <a>Bear</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="discord://">
+                                <a>Discord</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="slack://">
+                                <a>Slack</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="notes://">
+                                <a>Notes</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="ical://">
+                                <a>Calendar</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="todoist://">
+                                <a>Todoist</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="things://">
+                                <a>Things</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="webstorm://">
+                                <a>Webstorm</a>
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </aside>
