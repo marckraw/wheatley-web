@@ -35,8 +35,8 @@ const ProjectsIndex: NextPage = (props: any) => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/projects/wheatley">
-                                <a>wheatley.one</a>
+                            <Link href="/projects/bystro">
+                                <a>bystro</a>
                             </Link>
                         </li>
                         <li>

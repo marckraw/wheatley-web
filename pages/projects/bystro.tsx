@@ -75,6 +75,24 @@ const Bystro: NextPage = (props: any) => {
                                     Bystro-TestTool
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    href="https://github.com/marckraw/bystro-rn-expo"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    Bystro-rn expo
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://github.com/marckraw/bystro-flutter"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    Bystro-flutter
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div>
