@@ -23,6 +23,20 @@ const Bystro: NextPage = (props: any) => {
                     }}
                 >
                     <div>
+                        <h3>Design</h3>
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://www.figma.com/file/ARChDbmUk68Q7Bqy10hSZD/Bystro-Web-v1?node-id=1%3A4"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    Figma designs
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
                         <h3>Development process</h3>
                         <ul>
                             <li>

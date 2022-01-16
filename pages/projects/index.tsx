@@ -30,11 +30,6 @@ const ProjectsIndex: NextPage = (props: any) => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/projects/bystro-flutter">
-                                <a>bystro-flutter</a>
-                            </Link>
-                        </li>
-                        <li>
                             <Link href="/projects/bystro">
                                 <a>bystro</a>
                             </Link>
