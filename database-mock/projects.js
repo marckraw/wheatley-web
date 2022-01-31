@@ -26,6 +26,34 @@ export const projects = [
                 ]
             },
             {
+                name: "Learning stuff",
+                description: "",
+                links: [
+                    {
+                        name: "Flutter learning course",
+                        url: "https://pro.academind.com/courses/enrolled/767927"
+                    }
+                ]
+            },
+            {
+                name: "Documentation Bystro stuff",
+                description: "",
+                links: [
+                    {
+                        name: "Figma jam",
+                        url: 'https://www.figma.com/file/697DNqrad8wPI93ASii5sM/Bystro?node-id=0%3A1'
+                    },
+                    {
+                        name: "Flow zamowienia",
+                        url: "https://docs.google.com/document/d/1ZJLlHDmgIOwBbFzX6kUieoxUL9QgJ0cb0pJQcg6J5IA/edit?pli=1"
+                    },
+                    {
+                        name: "iteracja 1 story",
+                        url: "https://docs.google.com/document/d/14H1zw8hPg5TdTDozwfL3k41pmlmohL_hwv41AYb8HkM/edit?pli=1"
+                    }
+                ]
+            }
+            {
                 name: 'Repositories',
                 description: '',
                 links: [
