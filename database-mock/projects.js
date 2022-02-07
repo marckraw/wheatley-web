@@ -52,7 +52,7 @@ export const projects = [
                         url: "https://docs.google.com/document/d/14H1zw8hPg5TdTDozwfL3k41pmlmohL_hwv41AYb8HkM/edit?pli=1"
                     }
                 ]
-            }
+            },
             {
                 name: 'Repositories',
                 description: '',
@@ -350,6 +350,49 @@ export const projects = [
                         url: 'https://cloud.digitalocean.com/apps/0bdeb30a-0067-4eb1-93f4-422b31aef288/settings/db?i=3c8ad0'
                     }
                 ]
+            },
+        ]
+    },
+    {
+        id: 4,
+        name: 'some-finance-crud-project-temp-name',
+        title: 'some-finance-crud-project-temp-name places',
+        description: '',
+        places: [
+            {
+                name: 'Development process',
+                description: '',
+                links: []
+            },
+            {
+                name: 'Repositories',
+                description: '',
+                links: [
+                    {
+                        name: 'finnace crud backend in nestjs',
+                        url: 'https://github.com/marckraw/finance-crud-temporary-name'
+                    },
+                ]
+            },
+            {
+                name: 'Urls',
+                description: '',
+                links: []
+            },
+            {
+                name: 'Domain managment',
+                description: '',
+                links: []
+            },
+            {
+                name: 'Deploy services',
+                description: '',
+                links: []
+            },
+            {
+                name: 'Content (CMS, Database)',
+                description: '',
+                links: []
             },
         ]
     }
